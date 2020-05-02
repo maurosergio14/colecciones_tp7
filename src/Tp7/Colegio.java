@@ -21,6 +21,9 @@ public class Colegio {
         martinez.agregarMateria(matematicas);
         martinez.agregarMateria(laboratorio);
         martinez.agregarMateria(laboratorio);
+        martinez.agregarMateria(new Materia(1,"Matematicas",1));
+        martinez.agregarMateria(new Materia(1,"Matematicas",1));
+      //  martinez.agregarMateria(new Materia(1,"Matematicas",1));
         martinez.cantidadMaterias();
         lopez.cantidadMaterias();
 
